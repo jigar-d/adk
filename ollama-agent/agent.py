@@ -1,7 +1,7 @@
 from google.adk.agents.llm_agent import Agent
 from google.adk.models.lite_llm import LiteLlm
 
-ollama_model = LiteLlm(model="ollama_chat/llama3.1:8b")
+ollama_model = LiteLlm(model="ollama_chat/gemma3:1b")
 
 root_agent = Agent(
     name="OllamaAgent",
